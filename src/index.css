@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    background-color: #f5f5f5;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+}
+
+.nav-links{
+  gap: 20px;
+  display: flex;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    margin-left: 25px;
+}
+
+.navbar h1{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.home {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.home h2 {
+    font-size: 40px;
+    margin: 10px;
+}
+
+.home p {
+    font-size: 18px;
+    margin: 20px auto;
+}
+
+.home button {
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.about {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: white;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.skills {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.skills h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.skill-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill-boxes p {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.projects {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.projects h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.projects h3 {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 25px;
+    width: 250px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.slider {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.slider h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.slider img {
+    width: 700px;
+    height: 400px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.slider button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.contact {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: white;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.contact p {
+    font-size: 17px;
+}
+
+.contact input {
+    display: block;
+    width: 300px;
+    padding: 12px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact textarea {
+    display: block;
+    width: 300px;
+    height: 100px;
+    padding: 12px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 12px 25px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
